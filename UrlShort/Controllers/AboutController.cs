@@ -15,6 +15,7 @@ namespace UrlShort.Controllers
     {
         private const string _fileName = "About.txt";
         // GET: api/About
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult<string>> Get()
         {
