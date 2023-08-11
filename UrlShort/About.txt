@@ -1,0 +1,3 @@
+Introducing our link shortening service – the ideal solution for trimming down lengthy URLs. 
+
+Our link shortening algorithm is designed for simplicity. When a link is submitted, it's assigned a unique ID, encoded using base64, and turned into a shortened link. When users click on the shortened link, the system decodes the ID, looks up the original URL, and seamlessly redirects them. This efficient process ensures hassle-free link sharing on social media, messages, and websites. This straightforward process ensures your links are concise and shareable without any fuss.
