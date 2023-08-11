@@ -10,7 +10,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: "Policy",
         policy  =>
         {
-            policy.WithOrigins("https://localhost:3000","http://localhost:3000")
+            policy.WithOrigins("https://surl-e5af9.web.app", "https://surl-e5af9.firebaseapp.com")
                 .AllowAnyMethod()
                 .AllowAnyHeader();
         });
